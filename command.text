@@ -1,0 +1,14 @@
+# one tome each project to start git 
+git init
+
+echo "# my-first-github" >> README.md
+git add README.md
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Abdus-Salam-814/my-first-github.git
+git push -u origin main
